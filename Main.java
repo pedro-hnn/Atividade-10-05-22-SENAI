@@ -9,5 +9,11 @@ public class Main {
         Calculo calculo = new Calculo(1.0,2.0);
         Calculo calculo2 = new Calculo(1.0,2.0,3.0);
         Calculo calculo3 = new Calculo(1.0,2.0,3.0,4.0);
+        
+        System.out.println(calculo.Soma());
+        System.out.println("\n\n");
+        System.out.println(calculo2.Soma());
+        System.out.println("\n\n");
+        System.out.println(calculo3.Soma());
     }
 }
